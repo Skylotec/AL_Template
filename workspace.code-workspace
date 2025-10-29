@@ -1,0 +1,92 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "todo-tree.tree.scanMode": "workspace",
+    "todo-tree.general.enableFileWatcher": true,
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "UNUSED",
+        "OBSOLETE"
+    ],
+
+    "al.assemblyProbingPaths": [
+      "./.netpackages",
+      "C:/Program Files/Microsoft Dynamics 365 Business Central/140/Service/Add-ins",
+      "C:/Windows/assembly"
+    ],
+        "[al]": {
+        "editor.defaultFormatter": "ms-dynamics-smb.al"
+    },
+        "CRS.ObjectNamePrefix": "SKY",
+        "CRS.FileNamePattern": "<ObjectTypeShort>.<ObjectNameShort>.<ObjectId>.al",
+        "CRS.FileNamePatternPageCustomizations": "<ObjectTypeShort>.<ObjectNameShort>-PageCust.<ObjectId>al",
+        "CRS.FileNamePatternExtensions": "<ObjectTypeShort>.<ObjectNameShort>.<ObjectId>.al",
+        "CRS.ExtensionObjectNamePattern": "",
+        "CRS.OnSaveAlFileAction": "Reorganize",
+        "editor.codeActionsOnSave": {},
+        "al-test-runner.sendDebugTelemetry": false,
+        "al.showHomeAtStartup": "WhenUpdated",
+        "al.enableCodeActions": true,
+        "al.incrementalBuild": true,
+        "al.ruleSetPath": "./.rulesets/skylotec.ruleset.json",
+        "alObjectDesigner.useCustomSnippets": true,
+        "al.backgroundCodeAnalysis": false,
+        "alOutline.enableCodeCopFixes": true,
+        "al.codeAnalyzers": [
+            "${CodeCop}",
+            "${UICop}"
+        ],
+        "alOutline.codeCleanupActions": [
+            "AddApplicationAreas",
+            "AddDataClassifications",
+            "AddEnumValuesCaptions",
+            "AddObjectCaptions",
+            "AddMissingParentheses",
+            "AddPageFieldCaptions",
+            "AddPageFieldCaptions",
+            "AddTableFieldCaptions",
+            "AddToolTips",
+            "CollapseEmptyBrackets",
+            "ConvertObjectIdsToNames",
+            "FixIdentifiersCase",
+            "FixKeywordsCase",
+            "FormatDocument",
+            "MakeFlowFieldsReadOnly",
+            "OneStatementPerLine",
+            "RefreshToolTips",
+            "RemoveBeginEnd",
+            "RemoveEmptyLines",
+            "RemoveEmptySections",
+            "RemoveEmptyTriggers",
+            "RemoveProceduresSemicolon",
+            "RemoveRedundantDataClassification",
+            "RemoveRedundantAppAreas",
+            "RemoveStrSubstNoFromError",
+            "RemoveUnusedVariables",
+            "RemoveWithStatements",
+            "RemoveUnusedUsings",
+            "SortCustomizations",
+            "SortProcedures",
+            "SortPermissions",
+            "SortPermissionSetList",
+            "SortProperties",
+            "SortReportColumns",
+            "SortTriggers",
+            "SortVariables",
+            "TrimTrailingWhitespace",
+        ],
+        "alOutline.defaultAddPageFieldCaptionsSettings": {
+
+        },
+        "alOutline.apiFieldNamesConversion": [
+            
+        ],
+  }
+}
