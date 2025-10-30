@@ -1,15 +1,16 @@
 {
   "id": "",
-  "name": "Skylotec_ModulName",
-  "publisher": "Default Publisher",
+  "name": "SKYModulName",
   "version": "26.0.0.1",
   "brief": "",
-  "description": "",
-  "privacyStatement": "",
-  "EULA": "",
-  "help": "",
-  "url": "",
-  "logo": "",
+  "publisher": "Skylotec GmbH",
+  "logo": "./logo/logo.png",
+  "version": "1.0.0.0",
+  "description": "Skylotec Application",
+  "privacyStatement": "http://localhost",
+  "EULA": "http://localhost",
+  "help": "http://localhost",
+  "url": "http://localhost",
   "dependencies": [],
   "screenshots": [],
   "platform": "26.0.0.0",
@@ -27,6 +28,7 @@
   },
   "runtime": "15.2",
   "features": [
+    "TranslationFile",
     "NoImplicitWith"
   ]
 }
