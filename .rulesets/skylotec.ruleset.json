@@ -1,0 +1,21 @@
+{
+    "name": "skylotec",
+    "description": "These rules must be respected by all the AL code written within the company.",
+    "rules": [
+        {
+            "id": "AA0005",
+            "action": "None",
+            "justification": "For this specific project, this diagnostic should be informational."
+        },
+        {
+            "id": "AA0215",
+            "action": "None",
+            "justification": "This diagnostic helps to improve readability. It must be respected in all cases."
+        },
+        {
+            "id": "AA0074",
+            "action": "None",
+            "justification": "This diagnostic helps to improve readability. It must be respected in all cases."
+        }
+    ]
+}
